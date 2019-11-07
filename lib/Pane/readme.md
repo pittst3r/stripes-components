@@ -55,6 +55,7 @@ paneTitleRef | func | function to set a ref to title element - great for managin
 paneTitleAutoFocus | bool | If this prop is `true`, the pane title will automatically focus when the Pane mounts | |
 padContent | bool | Adds default padding to the Pane | true |
 noOverflow | bool | set to true if the Pane content is not expected to scroll. This can cure issues with flashing scrollbars on search result Panes. | false |
+overflow | `"auto", "hidden", "visible", "scroll"` | The value of the `overflow` css property of the pane content | `"auto"` |
 subheader | node | Render a component below the Pane's header. |  | false
 
 ## Pane title

@@ -36,7 +36,6 @@
 .paneContent {
   height: 100%;
   width: 100%;
-  overflow: auto;
 
   &.hasPadding {
     padding: var(--gutter-static);
@@ -44,6 +43,19 @@
 
   &.noOverflow {
     overflow: hidden;
+  }
+
+  &.overflow-hidden {
+    overflow: hidden;
+  }
+  &.overflow-visible {
+    overflow: visible;
+  }
+  &.overflow-auto {
+    overflow: auto;
+  }
+  &.overflow-scroll {
+    overflow: scroll;
   }
 }
 
